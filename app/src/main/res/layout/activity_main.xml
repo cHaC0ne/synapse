@@ -118,7 +118,6 @@
         android:background="@drawable/boton_registerfacebook"
         android:text="REGISTER WITH FACEBOOK"
         android:gravity="center"
-        style="@style/EditText.Fernando"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

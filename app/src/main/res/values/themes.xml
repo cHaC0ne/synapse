@@ -19,20 +19,15 @@
     <style name="Theme.SynapseMod" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#E8427E</item>
-        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryTextColor</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#111111</item>
+        <item name="colorSecondary">@color/primaryColor</item>
         <item name="colorSecondaryVariant">@color/purple_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/primaryTextColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="EditText.Fernando" parent="Widget.AppCompat.EditText">
-        <item name="android:colorControlNormal">@color/purple_500</item>
-        <item name="colorControlActivated">#FDD835</item>
-        <item name="colorControlHighlight">@color/secondaryLightColor</item>
-    </style>
 </resources>
