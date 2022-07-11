@@ -21,8 +21,9 @@
         <item name="colorPrimary">#E8427E</item>
         <item name="colorPrimaryVariant">@color/primaryTextColor</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#FFE8427E</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondary">#D81B60</item>
         <item name="colorSecondaryVariant">@color/purple_200</item>
         <item name="colorOnSecondary">@color/primaryTextColor</item>
         <!-- Status bar color. -->
