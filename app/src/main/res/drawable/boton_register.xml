@@ -5,7 +5,7 @@
     <!--    android:useLevel="false">-->
     <!--    android:shape="oval">-->
     <!--    android:shape="rectangel">-->
-    <solid android:color="#EC528A"/>
+
     <corners android:radius="100dp"/>
 <!--        <stroke android:color="@color/black"-->
 <!--            android:width="12dp" android:dashGap="5dp"-->

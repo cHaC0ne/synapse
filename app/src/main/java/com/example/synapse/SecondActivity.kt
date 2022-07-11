@@ -1,5 +1,6 @@
 package com.example.synapse
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -22,6 +23,10 @@ class SecondActivity : AppCompatActivity() {
         setContentView(b.root)
         getSpinner(b.spinner)
         getSpinner2(b.spinner2)
+        b.bSig.setOnClickListener {
+            val myIntent4 = Intent(this,ThirdActivity::class.java)
+            startActivity(myIntent4)
+        }
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         super.onCreateOptionsMenu(menu)
